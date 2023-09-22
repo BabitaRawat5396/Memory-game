@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="assets/fevicon.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Memory Game</title>
+</head>
+<body>
+  <canvas id="confetti"></canvas>
+  <video autoplay muted loop id="video-background">
+    <source src="assets/Background_Video.mp4" type="video/mp4">
+  </video>
+  <div id="change-images">
+    <p id="three-stack">☰</p>
+  </div>
+  <div id="main-content">
+    <h1>Memory Game</h1>
+    <div id="main-container"></div>
+  </div>
+  
+  <!-- Script -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+</body>
+</html>
